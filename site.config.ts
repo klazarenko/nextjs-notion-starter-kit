@@ -14,17 +14,17 @@ export default {
   isTweetEmbedSupportEnabled: false,
   isSearchEnabled: false,
 
-  // Ссылки на социальные сети (можно оставить пустыми)
-  twitter: null,
-  github: null,
-  linkedin: null,
-  mastodon: null,
-  newsletter: null,
-  youtube: null,
+  // Ссылки на социальные сети (заменили null на пустые строки '')
+  twitter: '',
+  github: '',
+  linkedin: '',
+  mastodon: '',
+  newsletter: '',
+  youtube: '',
 
   // Настройки отображения блоков
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: '',
+  defaultPageCover: '',
   defaultPageCoverPosition: 0.5,
 
   // Настройки навигации
